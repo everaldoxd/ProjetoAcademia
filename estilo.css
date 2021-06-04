@@ -1,0 +1,159 @@
+/* Importar fonte */
+@font-face {
+  font-family: sans-serif;
+}
+
+/* Padronizar tags */
+*{
+  font: 20px sans-serif;
+  margin: 7px;
+  padding: 7px;    
+}
+
+/* Corpo */
+body{
+  background-image: url(imagens/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* Topo */
+header{
+  /* background-color: rgba(87, 15, 15, 1); */
+  overflow: auto;
+  
+}
+
+header img{
+  float: left;
+  width: 150px;
+  filter: drop-shadow(2px 4px 8px #000000);
+}
+
+header nav{
+  float: right;
+}
+
+header a{
+  display: inline-block;
+  padding: 50px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  filter: drop-shadow(2px 4px 8px #000000);
+}
+
+header a:hover{
+  color:rgb(8, 1, 1);
+  text-decoration: unset;
+}
+
+
+
+/* Banner */
+.banner{
+  text-align: center;
+}
+
+.banner h1{
+  font-size: 60px;
+  color:black;
+  font-family: titulo;
+  margin-top: 200px;
+}
+
+.banner a{
+  display: inline-block;
+  border-radius: 10px;
+  background-color:rgb(0, 156, 60);
+  padding: 25px 60px;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+.sobre{
+  overflow: auto;
+  background-color: rgba(87, 15, 15, 1);
+  margin-top: 300px;
+}
+
+.sobre img{
+  width: 550px;
+  float: left;
+  filter: drop-shadow(2px 4px 8px #050202);
+}
+
+.sobre div{
+  width: 550px;
+  float: right;
+}
+
+.musculacao{
+  overflow: auto;
+  background-color: rgba(87, 15, 15, 1);
+  margin-top: 300px;
+}
+
+.musculacao h1{
+  font-family: titulo;
+}
+
+.musculacao img{
+  width: 550px;
+  float: right;
+  filter: drop-shadow(2px 4px 8px #050202);
+}
+
+.musculacao div{
+  width: 550px;
+  float: left;
+}
+
+
+.capoeira{
+  width: 550px;
+  float: right;
+  filter: drop-shadow(2px 4px 8px #050202);
+}
+
+.capoeira img{
+  width: 550px;
+  float: left;
+  filter: drop-shadow(2px 4px 8px #050202);
+}
+
+.capoeira div{
+  width: 550px;
+  float: right;
+}
+
+.muaythai{
+  overflow: auto;
+  background-color: rgba(87, 15, 15, 1);
+  margin-top: 300px;
+}
+
+.muaythai img{
+  width: 550px;
+  float: right;
+  filter: drop-shadow(2px 4px 8px #050202);
+}
+
+.muaythai div{
+  width: 550px;
+  float: left;
+}
+
+.jiujitsu img{
+  width: 550px;
+  float: right;
+  filter: drop-shadow(2px 4px 8px #050202);
+}
+
+.jiujitsu div{
+  width: 550px;
+  float: left;
+}
+
+
